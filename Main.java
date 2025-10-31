@@ -5,9 +5,9 @@ public class Main {
    public static void main(String []args) {
 
 	   	// SECTION #1
-		System.out.println("🎟️  Welcome to the Java Adventure Park 🎟️"); 
+		System.out.println("\n🎟️  Welcome to the Java Adventure Park 🎟️"); 
 		
-		int age = 16; // test different values!
+		int age = 16; // test different values and observe output!
 		double height = 5.5; // in feet, test different values
 		
 		if (age >= 18) {
@@ -36,7 +36,8 @@ public class Main {
 			System.out.println("Sorry, you cannot ride anything here. And your ticket is nonrefundable...");
 		}
 
-      	// SECTION #2
+      	// SECTION #2 (interactive - try giving input in terminal)
+		System.out.println("\n\n");
       	System.out.println("🗽 Welcome to the NYC Recommendation Bot!");
 
 		Scanner scan = new Scanner(System.in);
@@ -99,4 +100,5 @@ public class Main {
 		// Assuming a fixed distance of 2 miles for simplicity
 		return baseFare + (2 * farePerMile);
 	}
+
 }
